@@ -6,9 +6,13 @@ public class Student {
 		//changes from branch
 		//changes from git
 		//changes from branch_1
+
 		//changes from branch_2
-        //changes from git
-		//changes from branch2
+
+		//changes from branch_3
+
+    //changes from git
+	//change from git2	
 
 	}
 
