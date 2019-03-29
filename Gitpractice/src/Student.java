@@ -4,7 +4,7 @@ import java.util.Set;
 import java.util.TreeSet;
 
 public class Student {
-
+//changets from git
 	public static void main(String[] args) {
 
 		ArrayList<String> listOfWords= new ArrayList();
