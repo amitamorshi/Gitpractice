@@ -1,17 +1,42 @@
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.TreeSet;
 
 public class Student {
 
 	public static void main(String[] args) {
+
+		ArrayList<String> listOfWords= new ArrayList();
+		listOfWords.add("mya");
+		listOfWords.add("mya");
+		listOfWords.add("myc");
+		listOfWords.add("myd");
+		for(String tempWord:listOfWords) {
+			 System.out.println(tempWord+ " ");
+		}
 		
-		// TODO Auto-generated method stub
-		//changes from branch
-		//changes from git
-		//commited from branch again
-		//commited from branch3
-		//commited from branch4
-		//changes from git
-		//commited from branch4
-		//commited from branch5
+		Set<String> days= new HashSet();
+		days.add("sun");
+		days.add("sun");
+		days.add("tues");
+		
+		for(String day:days) {
+			 System.out.println(day+ " ");
+		}
+		
+		
+		Set<Integer> numbers= new TreeSet();
+		numbers.add(1);
+		numbers.add(3);
+		numbers.add(0);
+		
+		for(int number:numbers) {
+			 System.out.println(number+ " ");
+		}
+		
+		
+		
 	}
 
 }
